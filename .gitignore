@@ -1,0 +1,86 @@
+
+# ===============================
+# BUILD OUTPUT
+# ===============================
+target/
+build/
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ===============================
+# MAVEN WRAPPER
+# ===============================
+.mvn/wrapper/maven-wrapper.jar
+
+# ===============================
+# IDE - INTELLIJ
+# ===============================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===============================
+# IDE - ECLIPSE / STS
+# ===============================
+.classpath
+.project
+.settings
+.factorypath
+.springBeans
+.sts4-cache
+
+# ===============================
+# IDE - NETBEANS
+# ===============================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===============================
+# VS CODE
+# ===============================
+.vscode/
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# LOGS
+# ===============================
+*.log
+logs/
+
+# ===============================
+# ENVIRONMENT FILES
+# ===============================
+.env
+*.env
+application-local.properties
+application-secrets.properties
+
+# ===============================
+# DATABASE FILES
+# ===============================
+*.db
+*.mv.db
+
+# ===============================
+# TEST / COVERAGE
+# ===============================
+coverage/
+*.jacoco*
+
+# ===============================
+# TEMP FILES
+# ===============================
+*.swp
+*.swo
