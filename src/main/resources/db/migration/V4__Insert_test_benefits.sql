@@ -21,9 +21,9 @@ VALUES
 ),
 (
     RANDOM_UUID(),
-    '10 Percent Discount',
+    'Electronics Discount',
     'DISCOUNT',
-    '{\"percentage\":10}',
+    '{"discountPercentage":15}',
     TRUE,
     CURRENT_TIMESTAMP(),
     CURRENT_TIMESTAMP(),

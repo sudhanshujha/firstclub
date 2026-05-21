@@ -1,4 +1,4 @@
-package com.example.firstclub.strategy;
+package com.example.firstclub.benefit.strategy;
 
 import com.example.firstclub.benefit.BenefitContext;
 import com.example.firstclub.benefit.BenefitResult;
