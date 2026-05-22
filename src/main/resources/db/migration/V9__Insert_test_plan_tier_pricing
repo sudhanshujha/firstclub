@@ -1,0 +1,30 @@
+INSERT INTO plan_tier_pricing (
+    id,
+    created_at,
+    updated_at,
+    version,
+    plan_id,
+    tier_id,
+    price,
+    currency
+)
+VALUES (
+    RANDOM_UUID(),
+    CURRENT_TIMESTAMP(),
+    CURRENT_TIMESTAMP(),
+    0,
+    select ID from membership_plan where name = 'Basic Plan',
+    select ID from membership_tier where name = 'Bronze',
+    499,
+    'INR'
+),
+(
+    RANDOM_UUID(),
+    CURRENT_TIMESTAMP(),
+    CURRENT_TIMESTAMP(),
+    0,
+    select ID from membership_plan where name = 'Basic Plan',
+    select ID from membership_tier where name = 'Silver',
+    999,
+    'INR'
+);

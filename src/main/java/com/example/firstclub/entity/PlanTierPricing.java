@@ -9,6 +9,16 @@ import java.math.BigDecimal;
 @Getter
 @Setter
 @Entity
+@Table(
+    uniqueConstraints = {
+        @UniqueConstraint(
+            columnNames = {
+                "plan_id",
+                "tier_id"
+            }
+        )
+    }
+)
 public class PlanTierPricing extends BaseEntity {
 
     @ManyToOne
